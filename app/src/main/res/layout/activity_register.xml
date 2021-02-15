@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="60dp"
+    android:layout_marginBottom="40dp"
+    android:orientation="vertical"
+    tools:context="Fikri.app.chatz.LoginActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/signup" />
+
+    <TextView
+        android:id="@+id/register_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="Welcome Chatzy"
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:textColor="@color/dominant2"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/msg_reg_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Join our family"
+        android:textAlignment="center"
+        android:textColor="@color/grey2"
+        android:layout_marginBottom="15dp"
+        android:textSize="14dp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:background="@drawable/shape_bio"
+        android:layout_marginTop="10dp"
+        android:textCursorDrawable="@drawable/text_cursor"
+        android:hint="Username"
+        android:textColorHint="@color/grey2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:background="@drawable/shape_bio"
+        android:inputType="textEmailAddress"
+        android:textCursorDrawable="@drawable/text_cursor"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:textColorHint="@color/grey2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:background="@drawable/shape_bio"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@drawable/text_cursor"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textColorHint="@color/grey2"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:paddingTop="2dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/dominant_shape"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

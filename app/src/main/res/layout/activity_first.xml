@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="60dp"
+    android:layout_marginRight="60dp"
+    android:layout_marginBottom="40dp"
+    android:orientation="vertical"
+    tools:context="Fikri.app.chatz.FirstActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/first" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingBottom="30dp"
+        android:text="Let's Get Started"
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:textColor="@color/dominant2"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Never be lonely"
+        android:textAlignment="center"
+        android:textColor="@color/grey2"
+        android:textSize="14dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Connect your self with everyone"
+        android:textAlignment="center"
+        android:textColor="@color/grey2"
+        android:textSize="14dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:paddingTop="2dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/dominant_shape"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Chatz Now"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:onClick="Start"
+        android:textSize="18dp" />
+
+
+
+
+</LinearLayout>

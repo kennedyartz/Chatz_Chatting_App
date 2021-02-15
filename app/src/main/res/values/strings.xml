@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    MAIN-->
+    <string name="title">Library</string>
+    <string name="popular">Popular</string>
+    <string name="latest">Latest</string>
+    <string name="oldest">Oldest</string>
+    <string name="random">Random</string>
+    <string name="book_main">Black and White</string>
+    <string name="detail_main">Detail</string>
+
+    <!--    ADD-->
+    <string name="add_form">Add Form</string>
+    <string name="todo">TODO</string>
+    <string name="nama">Nama</string>
+    <string name="penerbit">Penerbit</string>
+    <string name="tahun_terbit">Tahun Terbit</string>
+    <string name="jumlah_halaman">Jumlah Halaman</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="submit">Submit</string>
+
+    <!--    ABOUT-->
+    <string name="title_tentang">About</string>
+    <string name="gemilang">Gemilang K S</string>
+    <string name="fikri">Fikri P E</string>
+    <string name="haris">Haris S D</string>
+    <string name="nim_gemilang">A11.2018.11381</string>
+    <string name="nim_fikri">A11.2018.11418</string>
+    <string name="nim_haris">A11.2018.11382</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="60dp"
+    android:layout_marginRight="60dp"
+    android:layout_marginBottom="40dp"
+    android:orientation="vertical"
+    tools:context="Fikri.app.chatz.StartActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/second" />
+
+    <TextView
+        android:id="@+id/chat_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingBottom="30dp"
+        android:text="Choose Your Persona"
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:textColor="@color/dominant2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Come join our family"
+        android:textAlignment="center"
+        android:textColor="@color/grey2"
+        android:textSize="14dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="and do better communication"
+        android:textAlignment="center"
+        android:textColor="@color/grey2"
+        android:textSize="14dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:paddingTop="2dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/dominant_shape"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:paddingTop="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dominant_shape_outline"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Sign Up"
+        android:textColor="@color/dominant"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
